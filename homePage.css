@@ -1,0 +1,206 @@
+body
+{
+margin: 0;
+padding: 0;
+}
+.topbar {
+  background: #161439;
+  color: #cfd6ee;
+  font-size: 13px;
+  width: 100%;
+}
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 25px;
+}
+.topbar-inner {
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left-info,
+.right-info {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.info-item i {
+  color: #9fb0ff;
+  font-size: 14px;
+}
+
+.call strong {
+  color: #fff;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icons a {
+  color: #cfd6ee;
+  font-size: 14px;
+  transition: 0.2s ease;
+  text-decoration: none;
+}
+
+.social-icons a:hover
+{
+  color: #ffffff;
+}
+.callColor , #callColor
+{
+color: #E6EAEF;
+}
+.funColor
+{
+color: gray !important;
+}
+
+
+.main-header
+{
+  background: #ffffff;
+  padding: 20px 0;
+}
+
+.header-inner
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img
+{
+  height: 53px;
+  margin-left: 135%;
+}
+
+
+.nav-links
+{
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.nav-links a
+{
+  text-decoration: none;
+  color: #1f1f1f;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.nav-item i
+{
+  font-size: 10px;
+  margin-left: 5px;
+  color: #585858;
+}
+
+
+.header-right
+{
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.search-box
+{
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 40px;
+  padding: 0 10px;
+  height: 45px;
+  width: 450px;
+}
+
+.categories
+{
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding-right: 12px;
+  border-right: 1px solid #ccc;
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+}
+
+.search-box input
+{
+  flex: 1;
+  border: none;
+  outline: none;
+  padding-left: 15px;
+  font-size: 14px;
+}
+
+.search-btn
+{
+  background: #635bff;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  color: white;
+  cursor: pointer;
+}
+
+.icon-group
+{
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.icon-wrapper 
+{
+  position: relative;
+  font-size: 20px;
+  color: #1f1f1f;
+  cursor: pointer;
+}
+
+.icon-wrapper,.badge 
+{
+  position: absolute;
+  top: -7px;
+  right: -10px;
+  background: #ffb700;
+  color: #000;
+  font-size: 11px;
+  font-weight: bold;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-btn 
+{
+  padding: 8px 22px;
+  background: #ffc220;
+  border: none;
+  border-radius: 25px;
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: 600;
+}
