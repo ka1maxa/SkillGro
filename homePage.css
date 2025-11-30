@@ -1,7 +1,13 @@
-body
-{
-margin: 0;
-padding: 0;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 25px;
+  box-sizing: border-box;
 }
 .topbar {
   background: #161439;
@@ -9,16 +15,11 @@ padding: 0;
   font-size: 13px;
   width: 100%;
 }
-.container {
-  max-width: 1300px;
-  margin: 0 auto;
-  padding: 0 25px;
-}
 .topbar-inner {
-  height: 42px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 8px 60px;
 }
 
 .left-info,
@@ -26,6 +27,7 @@ padding: 0;
   display: flex;
   align-items: center;
   gap: 25px;
+  flex-wrap: wrap;
 }
 
 .info-item {
@@ -36,166 +38,177 @@ padding: 0;
 
 .info-item i {
   color: #9fb0ff;
-  font-size: 14px;
-}
-
-.call strong {
-  color: #fff;
 }
 
 .social-icons {
   display: flex;
   gap: 15px;
+  align-items: center;
 }
 
 .social-icons a {
   color: #cfd6ee;
-  font-size: 14px;
-  transition: 0.2s ease;
-  text-decoration: none;
+  transition: 0.2s;
 }
 
-.social-icons a:hover
-{
+.social-icons a:hover {
   color: #ffffff;
 }
-.callColor , #callColor
-{
-color: #E6EAEF;
-}
-.funColor
-{
-color: gray !important;
-}
 
 
-.main-header
-{
+.main-header {
   background: #ffffff;
   padding: 20px 0;
 }
 
-.header-inner
-{
+.header-inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 40px;
 }
 
-.logo img
-{
-  height: 53px;
-  margin-left: 135%;
+/* LOGO */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.logo-text h3 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.logo-text p {
+  margin: 0;
+  font-size: 12px;
+  color: gray;
 }
 
 
-.nav-links
-{
+.nav-links {
   display: flex;
   align-items: center;
   gap: 35px;
 }
 
-.nav-links a
-{
+.nav-links a {
   text-decoration: none;
   color: #1f1f1f;
   font-size: 16px;
   font-weight: 500;
 }
 
-.nav-item i
-{
+.nav-item i {
   font-size: 10px;
   margin-left: 5px;
   color: #585858;
 }
 
-
-.header-right
-{
+/* RIGHT SIDE */
+.header-right {
   display: flex;
   align-items: center;
   gap: 25px;
+  margin-left: 5%;
 }
 
-.search-box
-{
+
+.search-combined {
   display: flex;
   align-items: center;
-  border: 1px solid #ddd;
+  background: white;
+  border: 1px solid #dcdcdc;
   border-radius: 40px;
-  padding: 0 10px;
-  height: 45px;
-  width: 450px;
+  
+  width: 340px; 
+  padding: 5px 12px;
+  box-sizing: border-box;
 }
 
-.categories
-{
+.search-left {
   display: flex;
   align-items: center;
-  gap: 6px;
-  padding-right: 12px;
-  border-right: 1px solid #ccc;
-  font-size: 14px;
-  color: #333;
-  cursor: pointer;
+  gap: 3px; 
+  font-weight: 600;
+  font-size: 13px;
+  color: #111;
 }
 
-.search-box input
-{
+.cat-icon {
+  color: #6a5df5;
+  font-size: 18px;
+}
+
+.arrow {
+  font-size: 12px;
+  color: #777;
+}
+
+.divider {
+  width: 1px;
+  height: 22px;
+  background: #ccc;
+  margin-left: 8px;
+}
+
+.search-combined input {
   flex: 1;
   border: none;
   outline: none;
-  padding-left: 15px;
   font-size: 14px;
+  padding-left: 8px;
+  color: #666;
 }
 
-.search-btn
-{
-  background: #635bff;
-  border: none;
-  outline: none;
+
+.search-btn {
+  width: 30px;   
+  height: 30px;
   border-radius: 50%;
-  width: 32px;
-  height: 32px;
-  color: white;
+  border: none;
+  background: #5c4ce2;
+  color: #fff;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.icon-group
-{
+.icon-group {
   display: flex;
   align-items: center;
   gap: 18px;
 }
 
-.icon-wrapper 
-{
+.icon-wrapper {
   position: relative;
   font-size: 20px;
-  color: #1f1f1f;
   cursor: pointer;
 }
 
-.icon-wrapper,.badge 
-{
+.badge {
   position: absolute;
-  top: -7px;
+  top: -6px;
   right: -10px;
   background: #ffb700;
   color: #000;
   font-size: 11px;
-  font-weight: bold;
   width: 16px;
   height: 16px;
-  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 50%;
 }
-.login-btn 
-{
+
+.login-btn {
   padding: 8px 22px;
   background: #ffc220;
   border: none;
