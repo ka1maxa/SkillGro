@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f8f9ff;
@@ -13,18 +12,14 @@ body {
     display: flex;
     flex-direction: column;
 }
-
 .main-content {
     flex: 1;
 }
-
 .container {
     max-width: 1300px;
     margin: 0 auto;
     padding: 0 20px;
 }
-
-/* ========== TOPBAR ========== */
 .topbar {
     background: linear-gradient(90deg, #161439, #2a275d);
     color: #cfd6ee;
@@ -32,77 +27,64 @@ body {
     font-size: 14px;
     border-bottom: 1px solid #2a275d;
 }
-
 .topbar-inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 .left-info {
     display: flex;
     gap: 30px;
     align-items: center;
 }
-
 .info-item {
     display: flex;
     align-items: center;
     gap: 8px;
 }
-
 .info-item i {
     color: #cfd6ee;
     font-size: 13px;
     opacity: 0.9;
 }
-
 .right-info {
     display: flex;
     align-items: center;
     gap: 30px;
 }
-
 .call {
     display: flex;
     align-items: center;
     gap: 8px;
 }
-
 .call i {
     color: #cfd6ee;
     opacity: 0.9;
 }
-
 .call strong {
     color: white;
     font-weight: 600;
 }
-
 .social-icons {
     display: flex;
     align-items: center;
     gap: 12px;
 }
-
 .social-icons span {
     color: #a0a8d3;
     font-size: 13px;
 }
-
 .social-icons a {
     color: #cfd6ee;
     width: 28px;
     height: 28px;
     border-radius: 50%;
-    background: rgba(255, 255, 255, 0.1);
     display: flex;
     align-items: center;
     justify-content: center;
     text-decoration: none;
     transition: all 0.3s ease;
 }
-
 .social-icons a:hover {
     background: #5c4ce2;
     transform: translateY(-2px);
@@ -543,7 +525,6 @@ input.wrong {
     line-height: 1.6;
 }
 .contact-item i {
-    color: #ffc220;
     margin-top: 3px;
     font-size: 16px;
 }
@@ -556,13 +537,13 @@ input.wrong {
     padding-bottom: 10px;
 }
 .footer-links h4::after {
+    background-color: #a0a8d3;
     content: '';
     position: absolute;
     bottom: 0;
     left: 0;
     width: 40px;
     height: 3px;
-    background: #ffc220;
 }
 .footer-links ul {
     list-style: none;
@@ -579,7 +560,6 @@ input.wrong {
     padding: 3px 0;
 }
 .footer-links a:hover {
-    color: #ffc220;
     transform: translateX(5px);
 }
 .footer-newsletter p {
@@ -602,7 +582,7 @@ input.wrong {
     font-size: 14px;
 }
 .copyright a {
-    color: #ffc220;
+    color: #a0a8d3;
     text-decoration: none;
 }
 .copyright a:hover {
@@ -616,7 +596,6 @@ input.wrong {
     width: 36px;
     height: 36px;
     border-radius: 50%;
-    background: rgba(255, 255, 255, 0.1);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -625,8 +604,6 @@ input.wrong {
     transition: all 0.3s;
 }
 .footer-social a:hover {
-    background: #ffc220;
-    color: #161439;
     transform: translateY(-3px);
 }
 @media (max-width: 1200px) {
