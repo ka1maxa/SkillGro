@@ -276,6 +276,9 @@
             padding: 20px 0 14px;
             margin-bottom: 6px;
         }
+        h1, .h1slave {
+            margin-left: 14% !important;
+        }
         .header-content {
             max-width: 1300px;
             margin: 0 auto;
