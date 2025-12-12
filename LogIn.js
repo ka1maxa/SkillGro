@@ -166,4 +166,19 @@ document.addEventListener('DOMContentLoaded', function() {
     
 
     window.logout = function() {
-        localStorage.removeItem('currentUser');}});
+        localStorage.removeItem('currentUser');}
+
+    const scrollBtn = document.querySelector('.scroll-top');
+    if (scrollBtn) {
+        const toggleScrollBtn = () => {
+            scrollBtn.classList.toggle('visible', window.scrollY > 200);
+        };
+
+        window.addEventListener('scroll', toggleScrollBtn);
+        scrollBtn.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        toggleScrollBtn();
+    }
+}); 
