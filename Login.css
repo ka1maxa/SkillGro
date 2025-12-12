@@ -241,7 +241,7 @@ body {
     background: linear-gradient(135deg, #ffc220, #ff9d00);
     border: none;
     border-radius: 25px;
-    color: white;
+    color: black;
     font-weight: 600;
     font-size: 15px;
     cursor: pointer;
@@ -445,7 +445,7 @@ input.wrong {
     background: linear-gradient(135deg, #f1c751, #ffb700);
     border: none;
     border-radius: 30px;
-    color: white;
+    color: black;
     font-size: 18px;
     font-weight: 700;
     cursor: pointer;

@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f8f9ff;
@@ -17,14 +16,11 @@ body {
 .main-content {
     flex: 1;
 }
-
 .container {
     max-width: 1300px;
     margin: 0 auto;
     padding: 0 20px;
 }
-
-/* ========== TOPBAR ========== */
 .topbar {
     background: linear-gradient(90deg, #161439, #2a275d);
     color: #cfd6ee;
@@ -106,9 +102,7 @@ body {
 .social-icons a:hover {
     background: #5c4ce2;
     transform: translateY(-2px);
-}
-
-/* ========== HEADER ========== */
+}   
 .main-header {
     background: white;
     padding: 18px 0;
@@ -174,8 +168,6 @@ body {
     font-size: 12px;
     margin-left: 5px;
 }
-
-/* ========== SEARCH BAR ========== */
 .header-right {
     display: flex;
     align-items: center;
@@ -244,8 +236,6 @@ body {
 .search-btn:hover {
     transform: scale(1.05);
 }
-
-/* ========== ICONS & BUTTONS ========== */
 .icon-group {
     display: flex;
     gap: 20px;
@@ -288,7 +278,7 @@ body {
     background: linear-gradient(135deg, #ffc220, #ff9d00);
     border: none;
     border-radius: 25px;
-    color: white;
+    color: black;
     font-weight: 600;
     font-size: 15px;
     cursor: pointer;
@@ -299,8 +289,6 @@ body {
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(255, 194, 32, 0.3);
 }
-
-/* ========== PAGE HEADER ========== */
 .page-header {
     background: linear-gradient(135deg, #f7f7ff 0%, #f3eaff 100%);
     padding: 70px 0 50px;
@@ -333,8 +321,6 @@ body {
     color: #5c4ce2;
     font-weight: 600;
 }
-
-/* ========== SIGNUP FORM ========== */
 .form-container {
     max-width: 520px;
     margin: 0 auto 80px;
@@ -364,8 +350,6 @@ body {
     margin-bottom: 35px;
     line-height: 1.7;
 }
-
-/* ========== GOOGLE BUTTON ========== */
 .google-btn {
     width: 100%;
     padding: 15px;
@@ -393,8 +377,6 @@ body {
     width: 22px;
     height: 22px;
 }
-
-/* ========== DIVIDER ========== */
 .divider {
     display: flex;
     align-items: center;
@@ -415,8 +397,6 @@ body {
     font-size: 14px;
     font-weight: 500;
 }
-
-/* ========== FORM FIELDS ========== */
 .row {
     display: flex;
     gap: 20px;
@@ -465,14 +445,14 @@ input.wrong {
     font-weight: 500;
 }
 
-/* ========== SUBMIT BUTTON ========== */
+
 .submit-btn {
     width: 100%;
     padding: 18px;
     background: linear-gradient(135deg, #f1c751, #ffb700);
     border: none;
     border-radius: 30px;
-    color: white;
+    color: black;
     font-size: 18px;
     font-weight: 700;
     cursor: pointer;
@@ -485,8 +465,6 @@ input.wrong {
     transform: translateY(-3px);
     box-shadow: 0 10px 25px rgba(241, 199, 81, 0.4);
 }
-
-/* ========== LOGIN LINK ========== */
 .login-text {
     text-align: center;
     margin-top: 30px;
@@ -505,8 +483,6 @@ input.wrong {
     color: #161439;
     text-decoration: underline;
 }
-
-/* ========== FOOTER ========== */
 .footer {
     background: #161439;
     color: #cfd6ee;
@@ -667,8 +643,6 @@ input.wrong {
     color: #161439;
     transform: translateY(-3px);
 }
-
-/* ========== SCROLL TO TOP ========== */
 .scroll-top {
     position: fixed;
     right: 20px;
